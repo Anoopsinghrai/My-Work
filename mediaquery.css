@@ -1,0 +1,209 @@
+@media only screen and (max-width: 986px) {
+  
+
+
+    .mid p {
+      font-size: 45px;
+    
+    }   
+.section1{
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 61%;
+}
+.section2{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 74%;
+}
+.section3{
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+}
+.section5{
+    flex-wrap: wrap;   
+}
+.section6{
+    flex-wrap: wrap;
+    
+    }
+    .section7{
+        flex-wrap: wrap;
+      
+        }    
+.review-box{
+   justify-content: center;
+} 
+}
+
+@media screen and (max-width:977px){
+    
+.secondlast{
+    flex-wrap: wrap;
+    height: auto;   
+}
+
+.main{
+    flex-wrap: wrap;  
+}
+
+}
+
+@media screen and (max-width:321px)  {
+
+    .section4 p{
+        width: 100%;
+      
+      }
+      .section4 h2{
+        width: 100%;
+      }
+      .section9{
+       width: 90%;
+      }
+      .section10{
+       width: 90%;
+      
+      }
+      .section11{
+       width: 90%;
+      
+      }
+      .section12{
+       width: 90%;
+      
+      }
+      .section13{
+       width: 90%;
+      
+      }
+      .section14{
+       width: 90%;
+      
+      }
+
+     .button{
+     flex-wrap: wrap;
+    
+     }
+
+    .wrapper{
+        height: auto;
+    }
+     .footer2 p{
+        width: 70%;
+     }
+
+     .socialmedia{
+        width: 66%;
+        gap: 20px;
+     }
+       .companydetail{
+        padding-left: 20px;
+       }
+
+
+      .box{
+        width: 80%;
+      }
+      .bodyarea{
+        text-align: center;
+        padding-bottom: 80px;
+      }
+      .section4{
+        text-align: center;
+      }
+      .section8{
+        text-align: center;
+      }
+     .section15{
+        text-align: center;
+     }
+     .main{
+        text-align: center;
+     }
+     .footer{
+        text-align: center;
+     }
+
+    }
+
+
+    @media screen and (max-width:375px){
+    
+    .footer2 p{
+       width: 70%;
+    }
+
+    .socialmedia{
+       width: 66%;
+       gap: 20px;
+    }
+
+  
+     .box{
+       width: 80%;
+     }
+     .bodyarea{
+       text-align: center;
+       padding-bottom: 80px;
+     }
+     .section4{
+       text-align: center;
+     }
+     .section8{
+       text-align: center;
+     }
+    .section15{
+       text-align: center;
+    }
+    .main{
+       text-align: center;
+    }
+    .footer{
+       text-align: center;
+    }
+  }
+
+    
+
+
+
+
+
+
+@media screen and (max-width:426px){
+  .mid p{
+    font-size: 2rem;
+    
+  }
+
+}
+
+
+
+   
+
+@media screen and (max-width:617px) {
+    .navbar1{
+        display: block;
+       
+     }
+
+     .menus{
+        display: none;
+     }
+
+  
+  
+     
+
+   
+}
