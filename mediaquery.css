@@ -1,11 +1,23 @@
-@media only screen and (max-width: 986px) {
+@media only screen and (min-width: 800px){
+  .menu-container{
+    display: none;
+  }
+
+}
+
+.wrapper{
+  padding-bottom: 10px;
+}
+.mid p{
+  font-size: 2rem;
+  padding-top: 10px;
   
+}
 
 
-    .mid p {
-      font-size: 45px;
+
+@media only screen and (max-width: 986px) {
     
-    }   
 .section1{
    
     flex-direction: column;
@@ -49,6 +61,13 @@
     flex-wrap: wrap;
     height: auto;   
 }
+.mid p{
+  margin-top: 100px;
+  }
+  .wrapper{
+    padding-bottom: 10px;
+  }
+
 
 .main{
     flex-wrap: wrap;  
@@ -56,14 +75,58 @@
 
 }
 
-@media screen and (max-width:321px)  {
 
+
+@media screen and (max-width:768px) {
+  .menus{
+    display: none;
+  }
+
+
+}
+
+
+
+
+@media screen and (max-width:321px)  {
+  
+  .buttonget{
+    width: 80%;
+  }
+  .buttonsee{
+    width: 78%;
+  }
+   
+  .wrapper{
+    padding-bottom: 10px;
+  }
+ 
+  .bodymain{
+    width: 100%;
+    text-align: center;
+  
+   }
+  
+  .bodyareapart{
+    width: 100%;
+    text-align: center;
+   
+  }
+
+     .section3 div{
+      width: 90%;
+      
+     }
     .section4 p{
         width: 100%;
       
       }
       .section4 h2{
         width: 100%;
+      }
+
+      .section5{
+        gap: 10px;
       }
       .section9{
        width: 90%;
@@ -72,6 +135,7 @@
        width: 90%;
       
       }
+      
       .section11{
        width: 90%;
       
@@ -88,7 +152,13 @@
        width: 90%;
       
       }
-
+     
+     .new1{
+      width: 50%;
+     }
+     .new2{
+      width: 80%;
+     }
      .button{
      flex-wrap: wrap;
     
@@ -105,11 +175,9 @@
         width: 66%;
         gap: 20px;
      }
-       .companydetail{
-        padding-left: 20px;
-       }
-
-
+     .company{
+      width: 80%;
+     }
       .box{
         width: 80%;
       }
@@ -126,34 +194,29 @@
      .section15{
         text-align: center;
      }
+
+     .buttongetit{
+      width: 80%;
+     }
      .main{
         text-align: center;
      }
      .footer{
         text-align: center;
      }
-
     }
 
-
-    @media screen and (max-width:375px){
-    
-    .footer2 p{
-       width: 70%;
-    }
-
-    .socialmedia{
-       width: 66%;
-       gap: 20px;
-    }
-
-  
+    @media screen and (max-width:376px){
+     .footer2 .socialmedia{
+      width: 60%;
+     }
      .box{
        width: 80%;
      }
      .bodyarea{
        text-align: center;
-       padding-bottom: 80px;
+       
+       margin-bottom: 0px;
      }
      .section4{
        text-align: center;
@@ -170,40 +233,43 @@
     .footer{
        text-align: center;
     }
+
+    .section15 .buttongetit{
+      width: 80%;
+     font-size: 2rem;
+    }
   }
 
     
-
-
-
-
-
-
 @media screen and (max-width:426px){
   .mid p{
     font-size: 2rem;
     
   }
+  .bodymain{
+    width: 100%;
+    text-align: center;
+  
+   }
+  
+  .bodyareapart{
+    width: 100%;
+    text-align: center;
+  }
+  .company{
+    padding-left: 10%;
+  }
+  .footer2 p{
+    width: 60%;
+    
+  }
+  .socialmedia{
+    width: 40%;
+  }
+
+  
+
+
 
 }
 
-
-
-   
-
-@media screen and (max-width:617px) {
-    .navbar1{
-        display: block;
-       
-     }
-
-     .menus{
-        display: none;
-     }
-
-  
-  
-     
-
-   
-}
