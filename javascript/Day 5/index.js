@@ -33,3 +33,14 @@
         let array = ["Anoop","Shreekant","Vinit","Scammer","Aniket"];
         array.sort();
         console.log(array);
+        //
+
+
+        //7
+        //Reverse the array using reverse() method
+        let array = ["Anoop","Shreekant","Vinit","Scammer","Aniket"];
+        array.reverse();
+        console.log(array);
+        
+
+
