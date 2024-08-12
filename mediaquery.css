@@ -84,9 +84,6 @@
   }
 }
 
-
-
-
 @media screen and (max-width:321px)  {
   
   .buttonget{
@@ -232,25 +229,19 @@
     .footer{
        text-align: center;
     }
-
     .section15 .buttongetit{
       width: 80%;
      font-size: 2rem;
     }
-  }
-
-    
+  } 
 @media screen and (max-width:426px){
   .mid p{
-    font-size: 2rem;
-    
+    font-size: 2rem; 
   }
   .bodymain{
     width: 100%;
     text-align: center;
-  
    }
-  
   .bodyareapart{
     width: 100%;
     text-align: center;
@@ -260,15 +251,9 @@
   }
   .footer2 p{
     width: 60%;
-    
   }
   .socialmedia{
     width: 40%;
   }
-
-  
-
-
-
 }
 
