@@ -33,14 +33,26 @@
         let array = ["Anoop","Shreekant","Vinit","Scammer","Aniket"];
         array.sort();
         console.log(array);
-        //
-
-
+        
         //7
         //Reverse the array using reverse() method
         let array = ["Anoop","Shreekant","Vinit","Scammer","Aniket"];
         array.reverse();
         console.log(array);
+
+        //8
+        //Remove the first IT company from the array
+        const itCompanies = ["W3villa Technologies","HCL Technologies","Wipro Limited","Tech Mahindra."]
+        itCompanies.shift()
+       console.log(itCompanies)
+      
+       //9
+      // Remove the middle IT company or companies from the array
+       let array =  ["W3villa Technologies","HCL Technologies","Wipro Limited","Tech Mahindra."]
+ 
+         let new_arr = array.slice(3,3);
+         console.log(array);
+         console.log(new_arr);
         
 
 
