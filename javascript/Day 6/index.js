@@ -144,3 +144,16 @@ for (let i = 0; i <= 100; i++) {
 }
 console.log(`Sum of all evens from 0 to 100 is ${sumEvens}`); // 2550
 console.log(`Sum of all odds from 0 to 100 is ${sumOdds}`);   // 2500
+
+//11
+//This is a fruit array , ['banana', 'orange', 'mango', 'lemon'] reverse the order using loop without using a reverse method.
+
+let fruits = ['banana', 'orange', 'mango', 'lemon'];
+let reversedFruits = [];
+
+for (let a = fruits.length - 1; a >= 0; a--) {
+    reversedFruits.push(fruits[a]);
+}
+
+console.log(reversedFruits); 
+
