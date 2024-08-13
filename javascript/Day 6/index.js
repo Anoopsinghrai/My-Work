@@ -121,3 +121,26 @@ for (let a = 0; a <= 100; a++) {
 }
 
 console.log("The sum of all numbers from 0 to 100 is:", sum);
+
+//9
+//Use loop to print the following pattern:
+
+for(let a = 0; a <= 10; a++){
+    console.log(`${a} * ${a} = ${a * a}`)
+  }
+
+  //10
+  //Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
+//The sum of all evens from 0 to 100 is 2550. And the sum of all odds from 0 to 100 is 2500.
+  let sumEvens = 0;
+let sumOdds = 0;
+
+for (let i = 0; i <= 100; i++) {
+  if (i % 2 === 0) {
+    sumEvens += i;
+  } else {
+    sumOdds += i;
+  }
+}
+console.log(`Sum of all evens from 0 to 100 is ${sumEvens}`); // 2550
+console.log(`Sum of all odds from 0 to 100 is ${sumOdds}`);   // 2500
