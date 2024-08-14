@@ -47,7 +47,70 @@ function rgbColorGenerator() {
 console.log(rgbColorGenerator())
 
 //6
+//Declare a function name printArray. It takes array as a parameter and it prints out each value of the array.
+function printArray(array) {
+    for (let a = 0; a < array.length; a++) {
+        console.log(array[a]);
+    }
+}
+const myArray = [1, 2, 3, 4, 5];
+printArray(myArray);
+
+//7
+// Write a function name showDateTime which shows time in this format: 08/01/2020 04:08 using the Date object.
+//showDateTime()
+//08/01/2020 04:08
+
+function showDateTime() {
+    let now = new Date();
+    let day = String(now.getDate()).padStart(2, '0');
+    let month = String(now.getMonth() + 1).padStart(2, '0'); // Months are zero-based
+    let year = now.getFullYear();
+    let hours = String(now.getHours()).padStart(2, '0');
+    let minutes = String(now.getMinutes()).padStart(2, '0');
+
+    return `${month}/${day}/${year} ${hours}:${minutes}`;
+}
+
+console.log(showDateTime());
+
+//9
+//Declare a function name reverseArray. It takes array as a parameter and it returns the reverse of the array (don't use method).
+//console.log(reverseArray([1, 2, 3, 4, 5]))
+
+function reverseArray(arr) {
+    let reversedArr = [];
+    for (let a = arr.length - 1; a >= 0; a--) {
+        reversedArr.push(arr[a]);
+    }
+    return reversedArr;
+}
+
+console.log(reverseArray([1, 2, 3, 4, 5]))
+
+//console.log(reverseArray(['A', 'B', 'C']))
+//['C', 'B', 'A']
+function reverseArray(arr) {
+    let reversedArr = [];
+    for (let a = arr.length - 1; a >= 0; a--) {
+        reversedArr.push(arr[a]);
+    }
+    return reversedArr;
+}
+
+console.log(reverseArray(['A', 'B', 'C']));
+
+//10
+////Writ a function which generates a randomUserIp.
+function randomUserIp() {
+    return Array(4).fill(0).map(() => Math.floor(Math.random() * 256)).join('.');
+}
+
+const randomIp = randomUserIp();
+console.log(randomIp)
 
 
+//11
+//Write a function which generates a randomMacAddress
 
- 
+
