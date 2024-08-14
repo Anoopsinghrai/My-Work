@@ -156,4 +156,3 @@ for (let a = fruits.length - 1; a >= 0; a--) {
 }
 
 console.log(reversedFruits); 
-
